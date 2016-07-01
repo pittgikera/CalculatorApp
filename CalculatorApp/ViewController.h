@@ -13,10 +13,13 @@
 - (IBAction)numberPressed:(UIButton *)sender;
 - (IBAction)calculationPressed:(id)sender;
 - (IBAction)equalsPressed;
+<<<<<<< HEAD
 - (IBAction)multiplyPressed:(UIButton *)sender;
 - (IBAction)dividePressed:(UIButton *)sender;
 
 
+=======
+>>>>>>> 48589e9e362caff4cbe8eb004c669edbb0d3faa1
 
 @property (nonatomic) BOOL typingNumber; //check if user is typing a number
 @property (nonatomic) int firstNumber;

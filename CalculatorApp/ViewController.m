@@ -55,6 +55,7 @@
     else if ([self.operation isEqualToString:@"-"])
     {
         result = self.firstNumber - self.secondNumber;
+
     }else if ([self.operation isEqualToString:@"X"])
     {
         result =  self.firstNumber * self.secondNumber;
@@ -77,7 +78,5 @@
     self.firstNumber = [self.calculatorDisplay.text intValue];
     self.operation = [sender currentTitle];
 }
-
-
 
 @end
